@@ -2,7 +2,6 @@
 # Certificate generation script for MQTT TLS authentication using step-cli
 
 set -e
-print("hi")
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 CERTS_DIR="$SCRIPT_DIR/certs"
 CA_NAME="MakerspaceCA"
