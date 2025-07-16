@@ -1,5 +1,6 @@
 #!/bin/bash
 # Certificate generation script for MQTT TLS authentication using step-cli
+#Agams's Change
 
 set -e
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
@@ -11,7 +12,7 @@ PROVISIONER_NAME="Makerspace2025Provisioner"
 
 # Parse command line arguments
 CA_PASSWORD=""
-while [[ $# -gt 0 ]]; do
+while [[ $# -gt 0 ]]; do 
     case $1 in
         --password)
             CA_PASSWORD="$2"
